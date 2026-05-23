@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Quotes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/"home-icon.png">
+    </head>
+    <body>
+        <script>
+            async function getQuote() {
+                const response = await fetch("quotes.osaidii.hackclub.app/get");
+                const data = await response;
+                document.getElementById("quotes".innerTest) = data.quote;
+            }
+        </script>
+        p = getQuote
+    </body>
+</html>
