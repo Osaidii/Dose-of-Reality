@@ -1,0 +1,10 @@
+body {
+    background-color: #1b1b1b;
+    justify-content: center;
+    display: flex;
+    align-items: flex=start;
+}
+
+quote {
+    color: #ffffff;
+}
