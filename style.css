@@ -1,10 +1,37 @@
 body {
     background-color: #1b1b1b;
-    justify-content: center;
-    display: flex;
-    align-items: flex=start;
+    margin: 0;
+    overflow: hidden;
 }
 
-quote {
+#container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#footer {
+    display: flex;
+    bottom: 0;
+    margin-bottom: 2vh;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    color: #b4afaf;
+    font-size: medium;
+    font-family:monospace
+}
+
+#quote {
     color: #ffffff;
+    font-size: 5vh;
+    word-spacing: 4px;
+    display: inline-block;
+    max-width: 40%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
