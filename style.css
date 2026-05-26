@@ -19,7 +19,7 @@ body {
     justify-content: center;
     width: 100%;
     position: fixed;
-    color: #b4afaf;
+    color: #938f8f;
     font-size: medium;
     font-family:monospace
 }
@@ -34,4 +34,25 @@ body {
     text-align: center;
     line-height: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #efeaea;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: #eee8e8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cbc7c7; 
+    text-decoration: none;
+}
+
+a:active {
+    color: #e0dada;
+    text-decoration: none; 
 }
